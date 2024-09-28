@@ -13,26 +13,24 @@
         <h2 class="text-2xl font-bold">Registration</h2>
       </div>
 
-      <!-- Tabs -->
       <div class="mb-8">
         <button id="regTab" class="text-blue-600 font-semibold hover:underline">Registration</button> |
         <button id="listTab" class="text-gray-600 hover:underline">List of Registrants</button>
       </div>
 
-      <!-- Registration Form -->
       <form id="registrationForm" class="space-y-6">
         <div>
-          <label for="name" class="text-gray-800 text-sm mb-2 block">Name</label>
+          <label for="name" class="text-gray-800 text-sm mb-2 block">Nama</label>
           <input id="name" name="name" type="text" class="text-gray-800 bg-white border border-gray-300 w-full text-sm px-4 py-3 rounded-md outline-blue-500" placeholder="Minimum 10 characters" required />
         </div>
 
         <div>
-          <label for="age" class="text-gray-800 text-sm mb-2 block">Age</label>
+          <label for="age" class="text-gray-800 text-sm mb-2 block">Umur</label>
           <input id="age" name="age" type="number" class="text-gray-800 bg-white border border-gray-300 w-full text-sm px-4 py-3 rounded-md outline-blue-500" placeholder="Minimum 25 years" required />
         </div>
 
         <div>
-          <label for="money" class="text-gray-800 text-sm mb-2 block">Money</label>
+          <label for="money" class="text-gray-800 text-sm mb-2 block">Uang Sangu</label>
           <input id="money" name="money" type="number" class="text-gray-800 bg-white border border-gray-300 w-full text-sm px-4 py-3 rounded-md outline-blue-500" placeholder="Minimum 100K, Maximum 1M" required />
         </div>
 
@@ -43,15 +41,14 @@
         </div>
       </form>
 
-      <!-- Registrant List -->
       <div id="registrantList" class="hidden">
         <h3 class="text-xl font-bold mb-4">List of Registrants</h3>
         <table class="min-w-full border-collapse border border-gray-300">
           <thead class="bg-gray-50">
             <tr>
-              <th class="border border-gray-300 px-4 py-2 text-left">Name</th>
-              <th class="border border-gray-300 px-4 py-2 text-left">Age</th>
-              <th class="border border-gray-300 px-4 py-2 text-left">Money</th>
+              <th class="border border-gray-300 px-4 py-2 text-left">Nama</th>
+              <th class="border border-gray-300 px-4 py-2 text-left">Umur</th>
+              <th class="border border-gray-300 px-4 py-2 text-left">Uang Saku</th>
             </tr>
           </thead>
           <tbody id="registrantsTableBody"></tbody>
